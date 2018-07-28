@@ -1,0 +1,57 @@
+/*#list{
+	color: red;
+}*/
+.list{
+	color: green;
+}
+/*#list.list{
+	color: red;
+} приоритет для класса*/
+.list .list-item{
+	color: red;
+}
+/*пробел отвечает за конкретность селектора*/
+.list > .list-item{
+	/*дочерний класс*/
+}
+input + label{
+	color: ;
+	/*первый елемент родителя*/
+}
+ul li:hover{
+	color: blue;
+	/*при наведени*/
+}
+input:hover{
+	border: 2px solid green;
+}
+input:focus + label{
+	text-decoration: underline;
+}
+label:after{
+	content: "bla";
+	font-size: 10px;
+	color: blue;
+	/*добавляет в конец текст*/
+}
+label:before{
+	content: "oh";
+	color: yellow;
+}
+.list li:nth-child( odd, even){
+	color: red;
+	/*выбор елементов где в () указыватся выборка, формулы*/
+}
+.list li:first-child{
+/*last-child*/
+
+}
+input:checked{
+/*	изменение боксов
+*/}
+a[href="adadad"]{
+	color: blue;
+}
+fieldset[data-field="name"]{
+color: green;
+}

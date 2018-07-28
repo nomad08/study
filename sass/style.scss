@@ -1,0 +1,36 @@
+// Color
+$theme:#23679C;
+$text-dark:#333;
+$text-medium:#666;
+$text-light:#999;
+
+// Font size
+$title:30px;
+$sub-title:20px;
+$para:14px;
+$label:12px;
+
+header{
+  background: $theme;
+  height: 40px;
+  padding: 0 15px;
+  nav a{
+	color: #FFF;
+	text-decoration: none;
+	line-height: 40px;
+	display: inline-block;
+	padding: 0 30px;
+  } 
+}
+div h1{
+  font-size: $title;
+  color: $text-dark;
+}
+div p{
+  font-size: $para;
+  color: $text-medium;
+}
+div h3{
+  font-size: $sub-title;
+  color: $text-light;
+}

@@ -1,0 +1,3 @@
+sublime text 3 (плагин emmet)
+W3C валидатор html кода
+SCSS препроцессор (стили)

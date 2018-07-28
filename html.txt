@@ -1,0 +1,6 @@
+/n - s novoi stroki v js
+parseInt()- convert to
+input type="number"
+button
+href=" ссылка
+img src=" адрес картинки

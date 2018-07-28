@@ -1,0 +1,5 @@
+ Knowledge of core JavaScript. (1+ years prod. experience), ES6, React, Redux, Jest 
+— Understanding of common software development lifecycle practices, methodologies (Scrum), 
+usage of collaboration tools including SVN, JIRA, Jenkins, Confluence, TeamCity 
+— Hands-on proficiency in unit & integration testing 
+— intermediate English

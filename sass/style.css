@@ -1,0 +1,24 @@
+header {
+  background: #23679C;
+  height: 40px;
+  padding: 0 15px; }
+  header nav a {
+    color: #FFF;
+    text-decoration: none;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 30px; }
+
+div h1 {
+  font-size: 30px;
+  color: #333; }
+
+div p {
+  font-size: 14px;
+  color: #666; }
+
+div h3 {
+  font-size: 20px;
+  color: #999; }
+
+/*# sourceMappingURL=style.css.map */

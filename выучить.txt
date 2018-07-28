@@ -1,0 +1,6 @@
+Node js
+React, Angular 2, redux, vanilla vue.js
+Webpack, Jade, Font Ninja, Visual Event
+slick, owl carousel, masonry pkgd, jquery ui sortable, photoswipe, magniffic popup, cute slider
+jquery form validation, select2, iquery json editor, face detection, progress.js, tooltipister, typehead, fittext, prettyembed
+fitvids, fullpage.js, velocity.js, matchheight, slideout.js, focuspoint, liuid images, vide, swipe

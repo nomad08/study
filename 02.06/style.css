@@ -1,0 +1,77 @@
+p {
+	color: rgba(255,0,0,.80 ) /* !important;*/;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Tahoma', 'Arial', sans-serif;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-style: italic;
+	/* font-variant: small-caps все большие но маленькие; */
+	/* text-decoration: underline; */
+	/* text-decoration: none; */
+	text-decoration: overline;
+	/* text-decoration: line-through; зачеркивание */
+
+	/* text-transform: lowercase; все маленькие*/
+	/* text-transform: uppercase; все большие*/ 
+	text-transform: capitalize;
+
+	/* text-align: justify; по ширине */
+	text-align: center;
+
+	text-indent: 30px; /* отступ */
+
+	text-shadow: 2px /* гориз */ 1px /* вер */ 1px /* размыт */ #005000;
+	
+	/* отступы */
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	
+	/* 	высота строк */	
+	 line-height: 1;
+
+}
+span {
+	color: blue;	
+	}
+
+div{
+	font-family: 'Tahoma', 'Arial';
+	width: 100%;
+	max-width: 500px;
+	min-width: 200px;
+	height: 200px;
+	max-height: ;
+	min-height: ;
+	/* background-color: #bbb; */
+	border-radius: 30%;
+	border-bottom-right-radius: 30px;
+	border: 10px inset /* стиль рамки */ #222;
+	border-top: 10px double #555;
+	border-right: ;
+	border-bottom: ;
+	border-left: ;
+	border-image: ;
+
+	border-width: ;
+	border-style: ;
+	border-color: ;
+	border-top-color: red;
+	background-image: url('milky-way-2695569_960_720.jpg');
+	background-size: 100%;
+	/* background-repeat: no-repeat; без повтора фона */
+	background-position: center;
+/* 	background: #bbb url('milky-way-2695569_960_720.jpg') center no-repeat;
+  в одну строку*/
+	box-shadow: /* inset внутренняя тень */ 1px 1px 1px 1px #222;
+/* 	margin: 110px 300px 200px 10px;
+ */	margin: 2px;
+ 	padding: 20px;
+ 	box-sizing: border-box;
+ 	overflow: auto; /* скрол если не помещается контент */
+	opacity: 0.9; /* прозрачность, с учетом родителя */
+	display: inline-block;
+	/* visibility: hidden; невидимость */
+	cursor: text;
+	user-select: none;
+}
+

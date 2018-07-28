@@ -1,0 +1,35 @@
+.image{
+	float: left;
+/*	обтекаема с права или лева
+*/}
+.header{
+	background: #bbb;
+	padding: 20px 15px;
+
+}
+.logo {
+	float: left;
+
+}
+.phone {
+	float: right;
+	float: left;
+}
+.menu{
+	display: block;
+	float: right;
+	margin-left: 20px;
+	color: #222;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	opacity: 0;
+}

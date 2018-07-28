@@ -1,0 +1,131 @@
+#res{
+	width: 80%;
+	min-width: 800px;
+	height: 900px;
+	background-color: #e3f1ff;
+	border-radius: 1%;
+	border: 2px inset #bbb;
+	position: relative;
+    left: 10%;
+    right: 10%;
+    margin-top: 25px;
+    /*margin: 15px 3px 120px 100px;*/
+	/*border-top-color: red;*/
+	/*background-image: url('bg.jpg');*/
+	/*background-size: 90%;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: 0% 90%;*/
+	/*background: #ccc url('bg.jpg') center no-repeat;*/
+	/*background: url('bg.jpg') no-repeat, url('bg1.jpg') no-repeat;*/
+	/*background-color: #ccc;*/
+	/*background-size: 90%, 80%;*/
+	/*background-position: center, right bottom;*/
+	/*box-shadow: inset 6px 26px 28px 11px #222;*/
+	/*margin: 20px 30px 20px 10px;*/
+	/*margin-top: ;
+	margin-right: ;
+	margin-bottom: ;
+	margin-left: ;*/
+	/*margin: 20px 10px 30px;*/
+	/*margin: 20px 10px;*/
+	/*margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	/*overflow: auto;*/
+	/*overflow: hidden;*/
+	/*opacity: 0.5;*/
+	/*display: inline-block;*/
+	/*visibility: visible;*/
+	/*display: none;*/
+	/*cursor: not-allowed;*/
+	/*user-select: all;*/
+}
+#head{
+	position: absolute;
+ 	top: 3%;
+    left: 3%;
+    right: 28%;
+	background-color: #fff;
+	height: 180px;
+	font-family: 'Indie Flower', cursive;
+	color: #0a147a;
+	font-size: 40px;
+ 	text-shadow: 4px 2px 0px #bddeff;
+ 	border-bottom-right-radius: 30px;
+ 	border-top-left-radius: 30px;
+}
+h1{
+	font-variant: small-caps;
+	position: relative;
+	top: 30%;
+    left: 4%;
+    right: 10%;
+    text-align: center;
+
+}
+#photo{
+	width: 185px;
+	height: 195px;
+	background-image: url('img.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+ 	top: 2.5%;
+    left: 76%;
+    border-bottom-right-radius: 47px;
+    border-top-left-radius: 45px;
+}
+#text{
+	background-color: #fff;
+	width: 93%;
+	height: 630px;
+	position: absolute;
+	top: 26%;
+	left: 3%;
+	right: 3%;
+	padding-bottom: 25px;
+	font-family: 'Abel', sans-serif;
+	text-indent: 10px;
+	font-size: 18px;
+	border-bottom-left-radius: 47px;
+	border-top-right-radius: 47px;
+	overflow: auto;
+}
+h2{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #0a147a;
+	position: absolute;
+	top: 10px;
+}
+strong{
+	font-weight: bold;
+}
+h3{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #0a147a;
+	position: absolute;
+	top: 170px;
+}
+h4{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #0a147a;
+	position: absolute;
+	top: 330px;
+}
+h5{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #0a147a;
+	position: absolute;
+	top: 510px;
+}
+h6{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #0a147a;
+	position: absolute;
+	top: 630px;
+}

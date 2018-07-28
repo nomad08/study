@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dz</title>
+</head>
+<body>
+	<table border="2" bordercolor="black" cellpadding="10" cellspacing="0">
+		<tr align="center">
+			<td><b>Товар</b></td>
+			<td><b>Описание</b></td>
+			<td><b>Кол-во</b></td>
+			<td><b>Цена</b></td>
+		</tr>
+		<tr>
+			<td>Блуза</td>
+			<td>Красивая блуза из шелка</td>
+			<td>1</td>
+			<td>384.00</td>
+		</tr>
+		<tr>
+			<td>Брюки</td>
+			<td>Шерсть</td>
+			<td>1</td>
+			<td>900.00</td>
+		</tr>
+		<tr>
+			<td>Носки</td>
+			<td>Много не бвает</td>
+			<td><label for="birth-year"></label>
+				<select name="birth-year" id="birth-year">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				</select></td>
+			<td>20.00</td>
+		</tr>
+		<tr align="right">
+			<td colspan="3">Итого</td>
+			<td>1304.00</td>
+		</tr>
+	</table>
+
+	<br>
+	<br>
+
+	<h1>Регистрация</h1>
+
+	<br>
+
+	<form action="" method="POST" get="">
+		<label>
+			Имя
+			<input type="text" name="name">
+		</label>
+
+		<br>
+
+		<label>
+			Почта
+			<input type="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}" required name="email">
+		</label>
+
+		<br>
+
+		<label>
+			Пароль
+			<input type="password" name="password">
+		</label>
+
+		<br>
+
+		<label>
+			Повторите пароль
+			<input type="password" name="password_confirm">
+		</label>
+
+		<br>
+
+		<label for="birth-year">Год рождения</label>
+		<select name="birth-year" id="birth-year">
+			<option value="1990">1990</option>
+			<option value="1991">1991</option>
+			<option value="1992">1992</option>
+			<option value="1993">1993</option>
+		</select>
+
+		<br>
+
+	    <label>
+	      <input type="radio" name="title" value="mr">
+	      Мужчина
+	       <input type="radio" name="title" value="mr">
+	       Женщина
+	    </label>
+
+	    <br>
+
+	    <label>
+	      <input type="checkbox" name="terms" checked>
+	      Присылать уведомления на почту 
+	    </label>
+
+	    <br>
+
+	    <textarea name="comment" id="" cols="30" rows="10" placeholder="Комментарий..."></textarea>
+
+	    <br>
+
+	    <button type="submit">Отправить</button>
+	</form>
+</body>
+</html>
