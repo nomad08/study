@@ -1,0 +1,133 @@
+.body {
+	width: 2000px;
+	height: 5700px;
+}
+
+.face {
+	/*width: 100%;*/
+	height: 1100px;
+	align-items: center;
+	background-image: url(../img/1.png);
+	/*padding: 67px 151px;*/
+	text-align: center;
+}
+
+.header {
+	height: 202px;
+	width: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 85px 146px 159px;
+}
+
+.logo {
+	width: 232px;
+	height: 65px;
+	background-image: url(../img/Logo.png);
+}
+
+.nav-link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #dfe0e4;
+	padding: 23px;
+}
+
+.nav-link:last-child {
+	border: 1px solid #22386f;
+	border-radius: 30px;
+	padding: 10px 40px 10px 40px;
+	color: #5584ff;
+}
+
+.face>h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	color: #dfe0e4;
+
+}
+
+.face>h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	color: #8492af;
+}
+
+.btn {
+	display: block;
+	width: 204px;
+	border-radius: 100px;
+	background-color: #5584ff;
+	margin-top: 90px;
+	margin-left: 897px;
+	padding-top: 14px; 
+	padding-bottom: 14px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.tabs {
+	width: inherit;
+	height: 850px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.tab1, .tab2, .tab3 {
+	width: 470px;
+	text-align: center;
+
+}
+
+.img1, .img2, .img3 {
+	height: 92px;
+	width: 80px;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+.img1 {
+	background-image: url(../img/tab1.png);
+}
+
+.img2 {
+	background-image: url(../img/tab2.png);
+}
+
+.img3 {
+	background-image: url(../img/tab3.png);
+}
+
+.tabs h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	margin: 53px 0 34px 0;
+}
+
+.tabs p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.btn1 {
+	display: block;
+	width: 204px;
+	border: 1px solid #dadee7;
+	border-radius: 100px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #0e1a35;
+	font-weight: 700;
+	margin-top: 56px;
+	padding-top: 14px; 
+	padding-bottom: 14px;
+	margin-left: 130px;
+}

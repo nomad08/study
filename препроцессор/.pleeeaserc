@@ -1,0 +1,5 @@
+{
+  "in": "stylus/main.styl",
+  "out": "css/main.css",
+  "stylus": true
+}

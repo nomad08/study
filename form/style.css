@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	/*background-image: url(https://images.wallpaperscraft.ru/image/abstraktsiya_kartina_devushka_kraski_tsvety_ruka_zadumchivaya_rendering_93862_1920x1080.jpg);*/
+	
+}	
+
+.center {
+	 /*display: flex;*/
+	 height: 300px;
+	 width: 200px;
+	 margin: 100px;
+}
+
+.dws-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.dws-form>input {
+	border: none;
+	margin: 20px;
+}
+
+.button {
+	margin-left: 55px;
+	width: 70px;
+	height: 22px;
+	border: 1px solid #69c;
+	padding-top: 8px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.del {
+	display: none;
+}
+
+.dws-form>a:last-child {
+	margin-left: 32px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
